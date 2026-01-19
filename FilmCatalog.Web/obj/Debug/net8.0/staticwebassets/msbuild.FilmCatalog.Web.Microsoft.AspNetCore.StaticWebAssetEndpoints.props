@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/FilmCatalog.Web/css/site.2agq7ax9kg.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2agq7ax9kg"},{"Name":"integrity","Value":"sha256-6vOV1QxqUxpM9tGmojaKQ3N85wytMA3\u002B9iYDBlsOVCk="},{"Name":"label","Value":"_content/FilmCatalog.Web/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"940"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00226vOV1QxqUxpM9tGmojaKQ3N85wytMA3\u002B9iYDBlsOVCk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 19 Jan 2026 11:39:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/FilmCatalog.Web/css/site.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6vOV1QxqUxpM9tGmojaKQ3N85wytMA3\u002B9iYDBlsOVCk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"940"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00226vOV1QxqUxpM9tGmojaKQ3N85wytMA3\u002B9iYDBlsOVCk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 19 Jan 2026 11:39:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

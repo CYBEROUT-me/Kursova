@@ -1,0 +1,30 @@
+@model Genre
+
+@{
+    ViewData["Title"] = "Додати жанр";
+}
+
+<h1>Додати новий жанр</h1>
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create" id="create-genre-form">
+            <div asp-validation-summary="ModelOnly" class="text-danger validation-summary"></div>
+            
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label"></label>
+                <input asp-for="Name" class="form-control" id="genre-name" />
+                <span asp-validation-for="Name" class="text-danger field-validation"></span>
+            </div>
+            
+            <div class="mb-3">
+                <button type="submit" class="btn btn-primary" id="submit-btn">Створити</button>
+                <a asp-action="Index" class="btn btn-secondary">Скасувати</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

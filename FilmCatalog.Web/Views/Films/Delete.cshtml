@@ -1,0 +1,35 @@
+@model Film
+
+@{
+    ViewData["Title"] = "Видалити фільм";
+}
+
+<h1 class="text-danger">Видалити фільм</h1>
+
+<div class="alert alert-warning">
+    <strong>Увага!</strong> Ви впевнені, що хочете видалити цей фільм?
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">Назва</dt>
+            <dd class="col-sm-9" id="delete-title">@Model.Title</dd>
+
+            <dt class="col-sm-3">Рік випуску</dt>
+            <dd class="col-sm-9" id="delete-year">@Model.Year</dd>
+
+            <dt class="col-sm-3">Жанр</dt>
+            <dd class="col-sm-9" id="delete-genre">@Model.Genre?.Name</dd>
+
+            <dt class="col-sm-3">Режисер</dt>
+            <dd class="col-sm-9" id="delete-director">@Model.Director?.Name</dd>
+        </dl>
+    </div>
+</div>
+
+<form asp-action="Delete" id="delete-form" class="mt-3">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger" id="confirm-delete-btn">Підтвердити видалення</button>
+    <a asp-action="Index" class="btn btn-secondary">Скасувати</a>
+</form>

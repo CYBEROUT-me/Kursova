@@ -1,0 +1,26 @@
+@model Genre
+
+@{
+    ViewData["Title"] = "Видалити жанр";
+}
+
+<h1 class="text-danger">Видалити жанр</h1>
+
+<div class="alert alert-warning">
+    <strong>Увага!</strong> Ви впевнені, що хочете видалити цей жанр?
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">Назва жанру</dt>
+            <dd class="col-sm-9" id="delete-name">@Model.Name</dd>
+        </dl>
+    </div>
+</div>
+
+<form asp-action="Delete" id="delete-form" class="mt-3">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger" id="confirm-delete-btn">Підтвердити видалення</button>
+    <a asp-action="Index" class="btn btn-secondary">Скасувати</a>
+</form>

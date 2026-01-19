@@ -1,0 +1,65 @@
+/* Custom styles for Film Catalog */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.jumbotron {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.jumbotron .lead {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+}
+
+.table th {
+    white-space: nowrap;
+}
+
+.btn-sm {
+    margin-right: 2px;
+}
+
+.badge {
+    font-size: 0.9em;
+}
+
+/* Form validation styles */
+.field-validation-error {
+    color: #dc3545;
+    font-size: 0.875em;
+}
+
+.input-validation-error {
+    border-color: #dc3545;
+}
+
+/* Alert animations */
+.alert {
+    animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}

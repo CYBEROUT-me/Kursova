@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "Lnk3wUyhGjm1cvpZpvfvVo2wRBlmQL47aEpdjO6lTxM=",
+  "Source": "FilmCatalog.Web",
+  "BasePath": "_content/FilmCatalog.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FilmCatalog.Web\\wwwroot",
+      "Source": "FilmCatalog.Web",
+      "ContentRoot": "C:\\Users\\yukhn\\Desktop\\FilmCatalog\\FilmCatalog.Web\\wwwroot\\",
+      "BasePath": "_content/FilmCatalog.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\yukhn\\Desktop\\FilmCatalog\\FilmCatalog.Web\\wwwroot\\css\\site.css",
+      "SourceId": "FilmCatalog.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yukhn\\Desktop\\FilmCatalog\\FilmCatalog.Web\\wwwroot\\",
+      "BasePath": "_content/FilmCatalog.Web",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2agq7ax9kg",
+      "Integrity": "6vOV1QxqUxpM9tGmojaKQ3N85wytMA3+9iYDBlsOVCk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.2agq7ax9kg.css",
+      "AssetFile": "C:\\Users\\yukhn\\Desktop\\FilmCatalog\\FilmCatalog.Web\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "940"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6vOV1QxqUxpM9tGmojaKQ3N85wytMA3+9iYDBlsOVCk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 Jan 2026 11:39:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2agq7ax9kg"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6vOV1QxqUxpM9tGmojaKQ3N85wytMA3+9iYDBlsOVCk="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\yukhn\\Desktop\\FilmCatalog\\FilmCatalog.Web\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "940"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6vOV1QxqUxpM9tGmojaKQ3N85wytMA3+9iYDBlsOVCk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 Jan 2026 11:39:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6vOV1QxqUxpM9tGmojaKQ3N85wytMA3+9iYDBlsOVCk="
+        }
+      ]
+    }
+  ]
+}
